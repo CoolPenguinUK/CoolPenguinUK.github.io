@@ -34,6 +34,7 @@ $(document).ready(function($) {
 		$('.home-slider').owlCarousel({
 	    loop:true,
 	    autoplay: true,
+		autoplayTimeout: 1500,
 	    margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
@@ -56,7 +57,8 @@ $(document).ready(function($) {
 	        nav:false
 	      }
 	    }
-	   });
+	   }
+	   );
 	};
 	carousel();
 
